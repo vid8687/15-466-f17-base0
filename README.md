@@ -1,10 +1,13 @@
 # ColorSlide
-An implementation of ''ColorSlide'' game design over Base0 starter code.
+An implementation of [''ColorSlide''](http://graphics.cs.cmu.edu/courses/15-466-f17/game0-designs/rmukunda/) game design over Base0 starter code.
+
 Base0 is the starter code for the game0 in the 15-466-f17 course. It was developed by Jim McCann, and is hereby released into the public domain.
 
 Note that Base0 is attempting to illustrate a very straightfoward "get it done" philosophy of game code design -- I've purposefully removed some of the conveniences one typically uses to sweep things under the rug.
 
 This is because game0 *does not need* such conveniences. It is simple because game0 is simple.
+
+
 ## Requirements
 
  - glm
