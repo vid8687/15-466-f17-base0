@@ -75,7 +75,7 @@ int main(int argc, char **argv) {
 	std::uniform_real_distribution<> distl(-1.f, 0);
 	std::uniform_int_distribution<> distc(0, base.size()-1);
 	int32_t index = 0;	
-	float freq = 3.f; 
+	float freq = 3.f; //time between missiles 
 	float released  = freq;
 	//------------  initialization ------------
 
@@ -247,9 +247,12 @@ int main(int argc, char **argv) {
 					auto &b = base[m_index];
 					if(b == white || c == white) return true; //white always matches
 					if(b == c ){
-						//b = white; 
-						height[m_index] += base_size/3;
+						//b = white;
+						//well, the design document increase height so
+						//height[m_index] += base_size/3;
 						score++;
+						// also frequency variation with score
+						freq = std::min(2.f, freq - score*0.1f);
 						return true;
 					}
 					else{

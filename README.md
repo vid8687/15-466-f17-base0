@@ -5,6 +5,11 @@ Base0 is the starter code for the game0 in the 15-466-f17 course. It was develop
 Note that Base0 is attempting to illustrate a very straightfoward "get it done" philosophy of game code design -- I've purposefully removed some of the conveniences one typically uses to sweep things under the rug.
 
 This is because game0 *does not need* such conveniences. It is simple because game0 is simple.
+
+The game follows the design document, with the following minor changes:
+- Spacebar toggles between missiles falling straight down and  with random directions(default)
+- As score increases, frequency of missiles rather than their speed increases
+
 ## Requirements
 
  - glm
