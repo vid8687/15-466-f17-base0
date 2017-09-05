@@ -8,6 +8,7 @@ Note that Base0 is attempting to illustrate a very straightfoward "get it done" 
 This is because game0 *does not need* such conveniences. It is simple because game0 is simple.
 
 The game follows the design document, with the following minor changes:
+- Sliding the base color bar is based on left/right arrow keys
 - Spacebar toggles between missiles falling straight down and  with random directions(default)
 - As score increases, frequency of missiles rather than their speed increases
 
